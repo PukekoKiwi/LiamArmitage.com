@@ -1,0 +1,54 @@
+{
+    "head": {
+        "title": "Liam Armitage - Technical Artist"
+    },
+    "header": {
+        "title": "Liam Armitage",
+        "subTitle": "Technical Artist",
+        "resume": "&nbsp; Resume",
+        "back": "To Portfolio",
+        "about": "About Me",
+        "translate": "Ａ → あ"
+    },
+    "main": {
+        "introduction": {
+            "title": "Comdex Heist - Tackling the Full Asset Pipeline",
+            "description": "Comdex Heist is a high-effort work-in-progress animated short project, set in a dystopian, cyberpunk future where archaic ideas and futuristic fantasy blend. The narrative follows the journey of an alchemist, Alkali, who's on the run after a heist against a powerful corporation. Hot on his trail is Siv, a high-ranking, ruthless corporate employee with a terrifying armored form and control over disassembly nanobots. The project blends the thrills of a chase scene with the use of creative gadgets and abilities, heavily inspired by anime such as Fullmetal Alchemist and Jojo's Bizarre Adventure.",
+            "link": "For progress on this project, feel free to check out my Notion page for it <a href='https://snowy-engine-238.notion.site/Comdex-Heist-53450a756f984286b9ec9e4bdfb3829a'>here</a>!"
+        },
+        "role": {
+            "title": "Role",
+            "description1": "As the sole creator, I'm taking on the roles of <b>Illustrator</b> and <b>3D Artist</b>, responsible for a range of tasks, from concept sketches and costume design to character sculpting and rigging. My goal is to bring to life the intricate, magical setting, often consulting with peers to ensure my designs effectively embody my envisioned narrative. (While keeping with the rule of cool!)"
+        },
+        "process": {
+            "title": "Process and Tools",
+            "description1": "The process includes a range of tasks, starting with Z-Brush for initial character sculpts. I then switch to Blender for retopology and rigging. For texturing, Substance Painter has been a great tool!"
+        },
+        "visualization": {
+            "title": "Media",
+            "caption1": "Concepts sketches on paper for Alkali",
+            "caption2": "Concepts sketches on paper for Siv",
+            "caption3": "Line sketches of Alkali from the front and side",
+            "caption4": "Line sketches of Siv from the front and side",
+            "caption5": "Colored outfit reference for Alkali",
+            "caption6": "Colored outfit reference for Siv, in both armored and dress form",
+            "caption7": "The UV unwrap details of Alkali's model",
+            "caption8": "A collection of mood boards for the project.",
+            "caption9": "Z-Brush sculpt of Alkali",
+            "caption10": "Z-Brush sculpt of Siv",
+            "caption11": "Retopologized model of Alkali",
+            "caption12": "Retopologized model of Siv"
+        },
+        "challenges": {
+            "title": "Challenges and Learning",
+            "description1": "While the monetary barriers to certain tools were an initial challenge, the broader difficulty was in managing the scope and expectations of the project. Creating a high-quality animated short is an intense task, but it's one that I am excited to take on. I've learned to balance my ambitions with practical constraints, weaving in this work alongside other Tech Art projects. The opportunity to exercise such creative freedom and receive positive feedback from my peers has been an incredible reward."
+        },
+        "futureplans": {
+            "title": "Future Plans",
+            "description1": "While I'm currently occupied with a diversity of Technical-Art-focused projects to deepen my skillset, Comdex Heist remains a long-term goal I am committed to. I intend to follow the flowchart I've established and devote time to the project when available."
+        },
+        "meme": {
+            "caption": "While the project is WIP, enjoy this silly meme I made! Song is Caramelldansen."
+        }
+    }
+}

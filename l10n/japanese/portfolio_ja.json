@@ -1,0 +1,162 @@
+{
+    "head": {
+        "title": "ﾘｱﾑ･ｱｰﾐﾃｰｼﾞ - ﾃｸﾆｶﾙｱｰﾃｨｽﾄ"
+    },
+    "header": {
+        "title": "リアム・アーミテージ",
+        "subTitle": "テクニカルアーティスト",
+        "resume": "&nbsp; 経歴書",
+        "about": "私について",
+        "translate": "あ → Ａ"
+    },
+    "main": {
+        "hundredDays": {
+            "intro": "進行中のプロジェクトをぜひご覧ください:",
+            "projectName": "テックアートの100日間",
+            "description": "これからのテックアートプロジェクトのライブ日記です！"
+        },
+        "workTitle": {
+            "title": "注目の作品"
+        },
+        "projectFilters": {
+            "all": "すべて",
+            "programming": "プログラミング",
+            "art": "アート",
+            "technicalArt": "テクニカルアート",
+            "jumpToArtSamples": "アートサンプルへ"
+        },
+        "projects": {
+            "flipnoteShader": {
+                "title": "うごくメモ帳シェーダ",
+                "summaryTitle": "概要",
+                "summaryText": "うごくメモ帳の特徴的なスタイルを再現するUnityベースのシェーダーシステム。RGBカラーマッピング、ディザリング、カスタマイズ可能な彩度、深度ノーマルマッピング、ソーベルエッジ検出、疑似ノイズ生成を特徴としています。",
+                "roleTitle": "役割",
+                "roleResponsibility1": "ソロ",
+                "techArtist": "テクニカルアーティスト",
+                "roleResponsibility2": "Pythonを活用し、ボリューメトリック・テクスチャとデモ用ビジュアライゼーションを作成。",
+                "roleResponsibility3": "C#とHLSLを使用し、多機能でカスタマイズ可能なUnityシェーダーシステムを設計。",
+                "linkIntro": "プロジェクトを見る：",
+                "linkText": "こちら"
+            },
+            "jolynesThread": {
+                "title": "徐倫の糸",
+                "summaryTitle": "概要",
+                "summaryText": "ジョジョの奇妙な冒険の徐倫の糸を完全に手順で再現し、カスタマイズ可能でアニメーション化されたパラメータ、テキストアニメーション、ノイズ、テクスチャが含まれています。上のビデオはこのツールを使って作成したもので、DarienToadのSketchfabでの徐倫モデルをフィーチャーしています。",
+                "roleTitle": "役割",
+                "roleResponsibility1": "ソロ",
+                "techArtist": "テクニカルアーティスト",
+                "roleResponsibility2": "Blenderのジオメトリノードとシェーダーノードを使用して汎用性のあるアセットを設計・実装しました。",
+                "roleResponsibility3": "クリエイティブなコンテキストでの効果の可能性を強調する視覚的に鮮やかな歌詞ビデオを制作しました。",
+                "linkIntro": "制作について読む：",
+                "linkText": "こちら"
+            },
+            "swordOfTheMorel": {
+                "title": "ソード・オブ・ザ・モレル",
+                "summaryTitle": "概要",
+                "summaryIntro": "「",
+                "summaryEvent": "2022年ゲーム/音楽ジャム",
+                "summaryText": "」の参加作品である、成長をテーマにした敵を倒すごとに成長する剣を持つ2Dプラットフォーマーです。",
+                "roleTitle": "役割",
+                "roleIntro": "5人のグループでの",
+                "rolePosition": "背景・アセットアーティスト",
+                "roleResponsibility1": "美的価値を高め、ゲーム体験を向上させる大規模なピクセルアート・スプライトを多数制作。",
+                "roleResponsibility2": "Asepriteで60時間以上かけてツールをマスターし、ゲームのビジュアルを向上させた。",
+                "roleResponsibility3": "",
+                "roleAchievement": "最優秀ビジュアル賞",
+                "roleEnd": "受賞に大きく貢献。",
+                "linkIntro": "ゲームをプレイ：",
+                "linkText": "こちら"
+            },
+            "comdexHeist": {
+                "title": "コムデックス・ハイスト",
+                "summaryTitle": "概要",
+                "summaryText": "ハイクオリティなアニメーションショートプロジェクトである「コムデックス・ハイスト」は、サイバーパンクアニメーションショートを計画するキャラクターアセット制作の全プロセスに挑戦します。",
+                "roleTitle": "役割",
+                "roleIntro": "ソロ",
+                "rolePosition": "イラストレーターおよび3Dモデラー",
+                "roleResponsibility1": "コンセプトスケッチ、衣装デザイン、参照シートの制作に取り組みました。",
+                "roleResponsibility2": "キャラクターの彫刻、リトポロジー、テクスチャリング、UVアンラッピングに取り組みました。",
+                "linkIntro": "進捗を見る：",
+                "linkText": "こちら"
+            },
+            "downsized": {
+                "title": "ダウンサイズド",
+                "summaryTitle": "概要",
+                "summaryText": "C#でMonogameを使用して最初からコード化された学術的なゲームプロジェクトであるダウンサイズドは、採用されるという皮肉なテーマを持つ初歩的なトップダウンダンジョンクローラーです。",
+                "roleTitle": "役割",
+                "roleIntro": "",
+                "rolePosition1": "ゲーム開発者",
+                "rolePositionAnd": "と",
+                "rolePosition2": "スプライトアーティスト",
+                "roleResponsibility1": "4人のチームでレベルデザイナーの開発に貢献し、マップやオブジェクトのグラフィックレンダリングのプログラミングを担当。",
+                "roleResponsibility2": "ゲームを最初からプログラムするすごい経験を積みました。",
+                "linkIntro": "ゲームをプレイ：",
+                "linkText": "こちら"
+            },
+            "scrabble": {
+                "title": "スクラブル・イン・ザ・バッグ",
+                "summaryTitle": "概要",
+                "summaryText": "PixiJSで構築されたブラウザワードゲームであるScrabble In The Bagは、スクラブルに基づいたスコアと辞書を持つ物理ベースのワードマッチングゲームです。",
+                "roleTitle": "役割",
+                "roleIntro": "ソロ",
+                "rolePosition1": "プログラマー",
+                "rolePositionAnd": "と",
+                "rolePosition2": "テクニカルアーティスト",
+                "roleResponsibility1": "最終プロジェクトのためにこのウェブベースのビデオゲームを作成しました。",
+                "roleResponsibility2": "サウンドデザインに焦点を当て、スクラブルの辞書を統合して楽しく魅力的な体験を提供しました。",
+                "linkIntro": "ゲームをプレイ：",
+                "linkText": "こちら"
+            },
+            "roodig": {
+                "title": "ルーディグ",
+                "summaryTitle": "概要",
+                "summaryText": "2023年のグローバルゲームジャムに提出された作品で、ロチェスター工科大学の学生が京都コンピュータ学院の学生と協力して、「ルーツ」というテーマのビデオゲームを開発しました！",
+                "roleTitle": "役割",
+                "roleIntro": "リード",
+                "rolePosition1": "通訳者",
+                "and": "と",
+                "rolePosition2": "アセットアーティスト",
+                "roleResponsibility1": "7名からなる国際的なグループでアセット制作の管理を行いました。",
+                "roleResponsibility2": "学生間の異文化コミュニケーションを促進して、重要なリソースの翻訳を行いました。",
+                "roleResponsibility3": "業界の専門家からのフィードバックをリアルタイムで通訳しました。",
+                "linkIntro": "ゲームをプレイ：",
+                "linkText": "こちら"
+            }                                 
+        },
+        "art": {
+            "title": "アートサンプル",
+            "flea": {
+                "title": "フリーフリー",
+                "description": "フリーフリーは、アカデミック・プロジェクトとして制作された予告編アニメーションで、核を投げるミトコンドリアの助けを借りて、ノミが人間の細胞から脱出する様子が描かれています。"
+            },
+            "cubed": {
+                "title": "Cubed",
+                "description": "ルービックキューブで遊ぶ3Dモデリングされたロボットキャラクター"
+            },
+            "kvrc": {
+                "title": "K-VRC DDR",
+                "description": "キャラクター「K-VRC」のリグで作ったロトスコープ3Dアニメーションのアニジャム投稿作品"
+            },
+            "aquarium": {
+                "title": "Aquarium",
+                "description": "サイバーパンク系水族館にいる女の子の3Dシーン"
+            },
+            "cave": {
+                "title": "Cave",
+                "description": "水晶のような青い水の洞窟の中に、粉々になったテレビが描かれている作品"
+            },
+            "cookierobot": {
+                "title": "Cookie Robot",
+                "description": "「怪盗グルーの月泥棒」のクッキーロボットを素早く再現し、アニメーション化したもので、Mayaで作成し、3Dアセット制作クラス用の作品"
+            },
+            "robotbutler": {
+                "title": "Robot Butler",
+                "description": "初めて参加したD&Dのキャンペーンのキャラクター"
+            },
+            "projectdelta": {
+                "title": "Project Delta",
+                "description": "前述のキャンペーンでのプレイヤー達"
+            }
+        }
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "head": {
+        "title": "Liam Armitage - Technical Artist"
+    },
+    "header": {
+        "title": "Liam Armitage",
+        "subTitle": "Technical Artist",
+        "resume": "&nbsp; Resume",
+        "about": "About Me",
+        "translate": "Ａ → あ"
+    },
+    "main": {
+        "hundredDays": {
+            "intro": "Feel free to check out my in-progress project:",
+            "projectName": "100 Days of Tech Art",
+            "description": "a live daily journal of my upcoming tech art projects!"
+        },
+        "workTitle": {
+            "title": "Featured Work"
+        },
+        "projectFilters": {
+            "all": "All",
+            "programming": "Programming",
+            "art": "Art",
+            "technicalArt": "Technical Art",
+            "jumpToArtSamples": "Jump to Art Samples"
+        },
+        "projects": {
+            "flipnoteShader": {
+                "title": "Flipnote Shader",
+                "summaryTitle": "Summary",
+                "summaryText": "A Unity-based shader system that replicates the distinctive style of Flipnote Studio, featuring RGB colormapping, dithering, customizable saturation, depth-normal mapping, Sobel edge detection, and pseudonoise generation.",
+                "roleTitle": "Role",
+                "roleResponsibility1": "Solo ",
+                "techArtist": "Technical Artist",
+                "roleResponsibility2": "Utilized Python to create volumetric textures and demo visualizations",
+                "roleResponsibility3": "Engineered a versatile, customizable Unity shader system using C# and HLSL",
+                "linkIntro": "Check out the project:",
+                "linkText": " here"
+            },
+            "jolynesThread": {
+                "title": "Jolyne's Thread",
+                "summaryTitle": "Summary",
+                "summaryText": "A completely procedural replication of Jolyne's thread from Jojo's Bizarre Adventure, complete with customizable and animatable parameters, text animation, noise, and textures. The video above demonstrates the tool, featuring a Jolyne model by DarienToad on Sketchfab.",
+                "roleTitle": "Role",
+                "roleResponsibility1": "Solo ",
+                "techArtist": "Technical Artist",
+                "roleResponsibility2": "Designed and implemented a versatile asset using Blender's Geometry Nodes and Shader Nodes.",
+                "roleResponsibility3": "Produced a visually striking lyric video that highlights the effect's potential in a creative context.",
+                "linkIntro": "Read about the production:",
+                "linkText": " here"
+            },
+            "swordOfTheMorel": {
+                "title": "Sword of the Morel",
+                "summaryTitle": "Summary",
+                "summaryIntro": "A submission for the ",
+                "summaryEvent": "2022 Game/Music Jam",
+                "summaryText": ", Sword of the Morel is a 2D platformer based on the theme of growth featuring a sword that grows the more enemies defeated.",
+                "roleTitle": "Role",
+                "roleIntro": "Worked in a group of 5 as a ",
+                "rolePosition": "Background and Asset Artist",
+                "roleResponsibility1": "Created numerous large-scale pixel art sprites that added aesthetic value and enhanced gameplay experience.",
+                "roleResponsibility2": "Accumulated over 60 hours in Aseprite mastering the tool and enhancing the game visuals.",
+                "roleResponsibility3": "Contributed significantly to winning the ",
+                "roleAchievement": "Best Visuals",
+                "roleEnd": " award in the competition.",
+                "linkIntro": "Play the game:",
+                "linkText": " here"
+            },
+            "comdexHeist": {
+                "title": "Comdex Heist",
+                "summaryTitle": "Summary",
+                "summaryText": "A high-effort animated short project, Comdex Heist challenges the entire process of character asset creation for a planned cyberpunk animated short.",
+                "roleTitle": "Role",
+                "roleIntro": "Worked solo as a ",
+                "rolePosition": "Illustrator and 3D Modeler",
+                "roleResponsibility1": "Engaged in concept sketches, costume design, and creation of reference sheets.",
+                "roleResponsibility2": "Worked on sculpting, retopology, texturing, and UV unwrapping of the characters.",
+                "linkIntro": "See progress:",
+                "linkText": " here"
+            },
+            "downsized": {
+                "title": "Downsized",
+                "summaryTitle": "Summary",
+                "summaryText": "An academic game project coded entirely from scratch using Monogame in C#, Downsized is a rudimentary top-down dungeon-crawler with a tongue-in-cheek theme of getting hired.",
+                "roleTitle": "Role",
+                "roleIntro": "",
+                "rolePosition1": "Game Developer",
+                "rolePositionAnd": " and ",
+                "rolePosition2": "Sprite Artist",
+                "roleResponsibility1": "Worked in a four-person team, contributing to the development of a level designer and programming the graphics rendering for map and objects.",
+                "roleResponsibility2": "Gained an intimate experience with programming a game from the ground up.",
+                "linkIntro": "Play the game:",
+                "linkText": " here"
+            },
+            "scrabble": {
+                "title": "Scrabble In The Bag",
+                "summaryTitle": "Summary",
+                "summaryText": "A browser word game built with PixiJS, Scrabble In The Bag is a physics-based word matching game with scores and a dictionary based on Scrabble.",
+                "roleTitle": "Role",
+                "roleIntro": "Solo ",
+                "rolePosition1": "Programmer",
+                "rolePositionAnd": " and ",
+                "rolePosition2": "Technical Artist",
+                "roleResponsibility1": "Created this web-based video game for a final project.",
+                "roleResponsibility2": "Focused on sound design and integrating the Scrabble dictionary for a fun and engaging experience.",
+                "linkIntro": "Play the game:",
+                "linkText": " here"
+            },
+            "roodig": {
+                "title": "Roodig",
+                "summaryTitle": "Summary",
+                "summaryText": "A submission for the week-long 2023 Global Game Jam, where RIT students collaborated with students from Kyoto Computer Gakuin to develop a video game with the theme of 'Roots'!",
+                "roleTitle": "Role",
+                "roleIntro": "Acting as lead ",
+                "rolePosition1": "Interpreter",
+                "and": " and ",
+                "rolePosition2": "Asset Artist",
+                "roleResponsibility1": "Helped manage asset creation in an international group of 7.",
+                "roleResponsibility2": "Facilitated cross-cultural communication between students and andled translation of key resources.",
+                "roleResponsibility3": "Interpreted feedback from industry professionals in real-time.",
+                "linkIntro": "Play the game:",
+                "linkText": " here"
+            }            
+        },
+        "art": {
+            "title": "Art Samples",
+            "flea": {
+                "title": "Flea Flee",
+                "description": "A class project animation created as a game-pitch trailer, featuring a flea escaping from a human cell with the help of a nuke-throwing mitochondria."
+            },
+            "cubed": {
+                "title": "Cubed",
+                "description": "A 3D modeled robot character playing with a Rubik's cube."
+            },
+            "kvrc": {
+                "title": "K-VRC DDR",
+                "description": "An anijam submission of a rotoscoped 3D animation I made with a rig of the character K-VRC."
+            },
+            "aquarium": {
+                "title": "Aquarium",
+                "description": "A 3D scene of a girl in a cyberpunk aquarium."
+            },
+            "cave": {
+                "title": "Cave",
+                "description": "A drawing of a crystal-blue water cave setting with a shattered washed-up TV."
+            },
+            "cookierobot": {
+                "title": "Cookie Robot",
+                "description": "A quick recreation and animation of the Cookie Robots in Despicable Me, recreated in Maya for a 3D Asset Production class."
+            },
+            "robotbutler": {
+                "title": "Robot Butler",
+                "description": "A character from one of the first D&D campaigns I participated in!"
+            },
+            "projectdelta": {
+                "title": "Project Delta",
+                "description": "The player lineup from said campaign."
+            }
+        }
+    }
+}

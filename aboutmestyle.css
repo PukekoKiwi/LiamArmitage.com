@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'Corporate Logo Medium';
+    src: url('media/Corporate-Logo-Medium-ver2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+:root {
+  --blue-dark: #000B14;
+  --blue-medium: #005679;
+  --blue-light: #06D8E8;
+  --blue-extra-light: #D1F9FF;
+  --pink-dark: #c32077;
+  --pink-medium: #e42089;
+  --pink-light: #FC2D9A;
+  --pink-extra-light: #ff6cba;
+}
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--blue-dark);
+    color: #FFF;
+    background-image: url('media/hexagon.png');
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+#master-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow-y: auto; /* add this to allow scrolling if the content is taller than the viewport */
+}
+  
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+  
+  h1 {
+    font-family: "Corporate Logo Medium", 'Klee One', cursive;
+    line-height: 120%;
+  }
+  
+  h2 {
+    font-family: "Corporate Logo Medium", 'Klee One', cursive;
+    line-height: 120%;
+  }
+  
+  .keyword {
+    border-radius: 4px;
+    font-size: 0.9em;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: normal;
+    display: inline-block;
+    margin-bottom: 0.3em;
+    margin-right: -0.1em;
+    font-weight: bold;
+  }
+  
+  /* keyword types */
+  
+  .art {
+    background-color: var(--pink-medium);
+    box-shadow: 0px 0px 8px var(--pink-medium);
+  }
+  
+  .programming {
+    background-color: var(--blue-medium);
+    box-shadow: 0px 0px 8px var(--blue-medium);
+  }
+  
+  .other {
+    background-color: #753693;
+    box-shadow: 0px 0px 8px #753693;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.5em;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--blue-medium);
+    border: 2px solid var(--blue-light);
+    box-shadow: 0px 0px 10px var(--blue-light);
+    color: #FFF;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: var(--blue-light);
+    box-shadow: 0px 0px 10px var(--blue-light);
+  }
+  
+  .social-icon:active {
+    border: 2px solid #06D8E800;
+    background-color: var(--blue-medium);
+    box-shadow: 0px 0px 0px var(--blue-light);
+  }
+  
+  .bio {
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    background-color: var(--blue-dark);
+    box-shadow: 0px 0px 10px var(--blue-light);
+    border-radius: 20px;
+  }
+  
+  .bio img {
+    width: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--pink-light);
+    box-shadow: 0px 0px 10px var(--pink-light);
+    object-fit: cover;
+  }
+  
+  .bio h1 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .bio h2 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: var(--blue-light);
+  }
+  
+  .resume-download {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--pink-dark);
+    box-shadow: 0px 0px 15px var(--pink-dark);
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .resume-download:hover {
+    background-color: var(--pink-light);
+    box-shadow: 0px 0px 15px var(--pink-medium);
+  }
+
+  #translate {
+    width: 275px;
+    padding: 3px;
+    font-size: large;
+    font-weight: bold;
+    background-color: var(--blue-medium);
+    box-shadow: 0px 0px 10px var(--blue-medium);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #translate:hover {
+    background-color: var(--blue-light);
+    box-shadow: 0px 0px 10px var(--blue-light);
+    cursor: pointer;
+    color: rgba(255,255,255,.8);
+  }
+  
+  #translate:active {
+    background-color: #003849;
+    color: rgba(255,255,255,.8);
+  }
+  
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    max-width: 55%;
+    height: 500px;
+    overflow: auto;
+    padding: 20px; 
+    line-height: 1.6;
+  
+    background-color: var(--blue-dark);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--blue-light);
+  }
+
+  .introduction h1 {
+    font-size: 3em;
+    color:var(--blue-light);
+    margin: 20px;
+  }
+
+  .introduction p {
+    margin-bottom: 20px;
+  }
+
+  #back-button {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: "Corporate Logo Medium", 'Klee One', cursive;
+    padding: 15px 33px;
+    background-color: var(--pink-dark);
+    box-shadow: 0px 0px 15px var(--pink-dark);
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+  }
+
+  #back-button:hover {
+    background-color: var(--pink-light);
+    box-shadow: 0px 0px 15px var(--pink-medium);
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  
+  @media screen and (max-width: 900px) {
+    #content-wrapper {
+        margin-top: auto;
+      }
+
+    header {
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-top: 10px;
+      flex-direction: row;
+    }
+
+    .bio {
+        flex-direction: row;
+        height: auto;
+    }
+  
+    .bio img {
+      width: 200px;
+      width: 200px;
+      margin-right: 20px;
+    }
+  
+    .personal-info {
+      text-align: left;
+    }
+    
+    .introduction {
+      max-width: 90%;
+      max-height: 400px;
+      font-size: .9rem;
+    }
+  
+    .introduction h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #back-button {
+        margin-bottom: 30px;
+        margin-top: 20px;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      gap: 10px;
+    }
+  
+    .bio {
+      margin: 10px;
+      flex-direction: column;
+    }
+  
+    .introduction {
+      font-size: 0.8rem;
+    }
+  }
+  

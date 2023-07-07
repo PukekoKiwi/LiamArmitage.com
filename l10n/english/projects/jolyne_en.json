@@ -1,0 +1,44 @@
+{
+    "head": {
+      "title": "Liam Armitage - Technical Artist"
+    },
+    "header": {
+      "title": "Liam Armitage",
+      "subTitle": "Technical Artist",
+      "resume": "&nbsp; Resume",
+      "back": "To Portfolio",
+      "about": "About Me",
+      "translate": "Ａ → あ"
+    },
+    "main": {
+      "introduction": {
+        "title": "Jolyne's Thread - Procedural Asset Generation",
+        "description": "This project, inspired by Jolyne Cujoh from JoJo's Bizarre Adventure: Stone Ocean, set out to create a system that allows artists and animators to create and manipulate threads dynamically in Blender using geometry nodes. The project was a deep dive into procedural asset generation, where I learned how to develop tools that serve the creative needs of end users and artists.",
+        "link": "For a detailed insight into my process, feel free to peruse my project journal <a href='https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6'>here</a>!"
+      },
+      "approach": {
+        "title": "Technical Implementation",
+        "description": "The project was implemented through a blend of unique techniques:",
+        "method1": "<b>Bézier Curves and Geometry Nodes:</b> I used Blender's geometry nodes to create a system allowing for the generation and manipulation of thread paths and procedural text.",
+        "method2": "<b>Dynamic Mesh Creation:</b> The thread is represented as a dynamic mesh, which adapts in real-time to changes in the spline.",
+        "method3": "<b>Interactivity and Control:</b> I implemented a wide array of editable variables within Blender's node editor. These allow the artist to easily change things such as radius and graphic fidelity, as well as text settings like positioning, spacing, rotation, scaling, and animated noise values.",
+        "description2": "The thread asset had to adapt to changes in real-time, be visually consistent, and above all, be intuitive for artists to use. Ensuring the tool lived up to these standards involved breaking down complex problems into their component parts, tackling vector math, and mastering Blender's toolset."
+      },
+      "visualization": {
+        "title": "Visualizations",
+        "caption1": "Endcaps following the rotation and orientation of the rest of the thread.",
+        "caption2": "A demonstration of what can be done with text via only artist-controlled parameters.",
+        "caption3": "The impact of scrubbing a color-ramp on the thread's texture."
+      },
+      "conclusion": {
+        "title1": "Future Plans",
+        "description1": "In the future, I'm planning to add another layer of abstraction to the thread mesh and have the thread itself follow a curve, making it more intuitive for artists. Further enhancements include improving the texture mapping algorithm for a more visually appealing thread.",
+        "description2": "The largest problem at the moment is that the number of control points must remain constant for the duration of the animation, and any new points made in the editor must be added at the end. In the future I think that this could be solved using a different different type of curve, most likely custom-made.",
+        "title2": "Download the Asset",
+        "description3": "To make use of the asset in your own projects, feel free to download it here!",
+        "title3": "Going Forward",
+        "description4": "This project was a unique journey into procedural asset generation, challenging me to develop artist-friendly tools. I look forward to exploring further in the realms of asset generation and tool creation."
+      }
+    }
+  }
+  

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Josefin+Sans:wght@700&family=Klee+One&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title data-i18n="head.title"></title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="mailto:lra6595@rit.edu" class="social-icon" aria-label="Email"><i
+                        class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/liamarmitage/" target="_blank" class="social-icon"
+                    aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/PukekoKiwi" target="_blank" class="social-icon" aria-label="GitHub"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://twitter.com/LiamArmitage_" target="_blank" class="social-icon" aria-label="Twitter"><i
+                        class="fa fa-twitter"></i></a>
+            </nav>
+            <div class="bio">
+                <img src="media/selfie.png" alt="Liam Armitage">
+                <div class="personal-info">
+                    <h1 data-i18n="header.title">Liam Armitage</h1>
+                    <h2 data-i18n="header.subTitle">Technical Artist</h2>
+                    <a href="media/Liam_Armitage_Resume.pdf" download class="resume-download"><i
+                            class="fa fa-download"></i><span data-i18n="header.resume">&nbsp; Resume</span></a>
+                </div>
+            </div>
+            <button id="about-me" onclick="window.location.href='aboutme.html';" data-i18n="header.about">About
+                Me</button>
+            <button id="translate" onclick="translateWebsite('portfolio');" data-i18n="header.translate">Ａ → あ</button>
+        </header>
+        <main>
+            <div class="hundred-days">
+                <p>
+                    <span data-i18n="main.hundredDays.intro">Feel free to check out my in-progress project:</span>
+                    <a href="https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6"
+                        data-i18n="main.hundredDays.projectName">100 Days of Tech Art</a>,
+                    <span data-i18n="main.hundredDays.description">a live daily journal of my upcoming tech art
+                        projects!</span>
+                </p>
+            </div>
+            <h1 class="work-title" data-i18n="main.workTitle.title">Featured Work</h1>
+            <section class="project-filters">
+                <button onclick="filterProjects('all')" data-i18n="main.projectFilters.all">All</button>
+                <button onclick="filterProjects('programming')"
+                    data-i18n="main.projectFilters.programming">Programming</button>
+                <button onclick="filterProjects('art')" data-i18n="main.projectFilters.art">Art</button>
+                <button onclick="filterProjects('technical-art')" data-i18n="main.projectFilters.technicalArt">Technical
+                    Art</button>
+                <button class="solo-art-button" onclick="window.location.href='#art-title';"
+                    data-i18n="main.projectFilters.jumpToArtSamples">Jump to Art Samples</button>
+            </section>
+            <section class="projects">
+
+                <!-- Flipnote Shader -->
+                <div class="project-item technical-art programming">
+                    <div class="media-wrapper">
+                        <video class="preview-video" autoplay loop muted playsinline>
+                            <source src="media/flipnotepreview.mp4" type="video/mp4">
+                        </video>
+                        <h3><a href="projects/flipnoteshader.html" data-i18n="main.projects.flipnoteShader.title">Flipnote Shader</a></h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.flipnoteShader.summaryTitle">Summary</h4>
+                            <p class="summary">
+                                <span data-i18n="main.projects.flipnoteShader.summaryText">A Unity-based shader system
+                                    that replicates the distinctive style of Flipnote Studio, featuring RGB
+                                    colormapping, dithering, customizable saturation, depth-normal mapping, Sobel edge
+                                    detection, and pseudonoise generation.</span>
+                            </p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.flipnoteShader.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.flipnoteShader.roleResponsibility1">Solo </span><span
+                                        class="keyword art"
+                                        data-i18n="main.projects.flipnoteShader.techArtist">Technical Artist</span></li>
+                                <li><span data-i18n="main.projects.flipnoteShader.roleResponsibility2">Utilized Python
+                                        to create volumetric textures and demo visualizations</span></li>
+                                <li><span data-i18n="main.projects.flipnoteShader.roleResponsibility3">Engineered a
+                                        versatile, customizable Unity shader system using C# and HLSL</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link">
+                        <span data-i18n="main.projects.flipnoteShader.linkIntro">Check out the project:</span><a
+                            href="https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6"><span
+                                data-i18n="main.projects.flipnoteShader.linkText"> here</span></a>
+                    </p>
+                </div>
+
+                <!-- Jolyne's Thread -->
+                <div class="project-item technical-art">
+
+                    <div class="media-wrapper">
+                        <video class="preview-video" autoplay loop muted playsinline>
+                            <source src="media/jolynepreview.mp4" type="video/mp4">
+                        </video>
+                        <h3><a href="projects/jolynesthread.html" data-i18n="main.projects.jolynesThread.title">Jolyne's Thread</a></h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.jolynesThread.summaryTitle">Summary</h4>
+                            <p class="summary">
+                                <span data-i18n="main.projects.jolynesThread.summaryText">A completely procedural
+                                    replication of Jolyne's thread from Jojo's Bizarre Adventure, complete with
+                                    customizable and animatable parameters, text animation, noise, and textures. The
+                                    video above demonstrates the tool, featuring a</span>
+                                <a href="https://sketchfab.com/3d-models/jolyne-kujo-55132ba1affd4a91b6c1f1f5003f357e">
+                                    Jolyne model </a>
+                                <span>by DarienToad on Sketchfab.</span>
+                            </p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.jolynesThread.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.jolynesThread.roleResponsibility1">Solo </span><span
+                                        class="keyword art" data-i18n="main.projects.jolynesThread.techArtist">Technical
+                                        Artist</span></li>
+                                <li><span data-i18n="main.projects.jolynesThread.roleResponsibility2">Designed and
+                                        implemented a versatile asset using Blender's Geometry Nodes and Shader
+                                        Nodes.</span></li>
+                                <li><span data-i18n="main.projects.jolynesThread.roleResponsibility3">Produced a
+                                        visually striking lyric video that highlights the effect's potential in a
+                                        creative context.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link">
+                        <span data-i18n="main.projects.jolynesThread.linkIntro">Read about the production:</span>
+                        <a
+                            href="https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6"><span
+                                data-i18n="main.projects.jolynesThread.linkText"> here</span></a>
+                    </p>
+                </div>
+
+                <!-- Sword of the Morel -->
+                <div class="project-item art technical-art">
+
+                    <div class="media-wrapper">
+                        <video class="preview-video" autoplay loop muted playsinline>
+                            <source src="media/swordofthemorelpreview.mp4" type="video/mp4">
+                        </video>
+                        <h3><a href="projects/swordofthemorel.html" data-i18n="main.projects.swordOfTheMorel.title">Sword of the Morel</a></h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.swordOfTheMorel.summaryTitle">Summary</h4>
+                            <p class="summary">
+                                <span data-i18n="main.projects.swordOfTheMorel.summaryIntro">A submission for the
+                                </span><a href="https://itch.io/jam/gmjam2022"
+                                    data-i18n="main.projects.swordOfTheMorel.summaryEvent">2022 Game/Music Jam</a><span
+                                    data-i18n="main.projects.swordOfTheMorel.summaryText">, Sword of the Morel is a 2D
+                                    platformer based on the theme of growth featuring a sword that grows the more
+                                    enemies defeated.</span>
+                            </p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.swordOfTheMorel.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.swordOfTheMorel.roleIntro"></span><span
+                                        class="keyword art"
+                                        data-i18n="main.projects.swordOfTheMorel.rolePosition">Background and Asset
+                                        Artist</span></li>
+                                <li><span data-i18n="main.projects.swordOfTheMorel.roleResponsibility1">Created numerous
+                                        large-scale pixel art sprites that added aesthetic value and enhanced gameplay
+                                        experience.</span></li>
+                                <li><span data-i18n="main.projects.swordOfTheMorel.roleResponsibility2">Accumulated over
+                                        60 hours in Aseprite mastering the tool and enhancing the game visuals.</span>
+                                </li>
+                                <li><span data-i18n="main.projects.swordOfTheMorel.roleResponsibility3">Contributed
+                                        significantly to winning the </span><span class="keyword other"
+                                        data-i18n="main.projects.swordOfTheMorel.roleAchievement">Best
+                                        Visuals</span><span data-i18n="main.projects.swordOfTheMorel.roleEnd"> award in
+                                        the competition.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link">
+                        <span data-i18n="main.projects.swordOfTheMorel.linkIntro">Play the game:</span><a
+                            href="https://fumpledump.itch.io/sword-of-the-morel"><span
+                                data-i18n="main.projects.swordOfTheMorel.linkText"> here</span></a>
+                    </p>
+                </div>
+
+                <!-- Comdex Heist -->
+                <div class="project-item art technical-art">
+
+                    <div class="media-wrapper">
+                        <img src="media/comdex.png" loading="lazy"
+                            alt="multiple progress points of 2D asset creation, top left having UV unwraps, bottom left having costume design, and right having sculpting samples">
+                        <h3><a href="projects/comdexheist.html" data-i18n="main.projects.comdexHeist.title">Comdex Heist</a></h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.comdexHeist.summaryTitle">Summary</h4>
+                            <p class="summary" data-i18n="main.projects.comdexHeist.summaryText">A high-effort animated
+                                short project, Comdex Heist challenges the entire process of character asset creation
+                                for a planned cyberpunk animated short.</p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.comdexHeist.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.comdexHeist.roleIntro">Worked solo as a </span><span
+                                        class="keyword art"
+                                        data-i18n="main.projects.comdexHeist.rolePosition">Illustrator and 3D
+                                        Modeler</span></li>
+                                <li data-i18n="main.projects.comdexHeist.roleResponsibility1">Engaged in concept
+                                    sketches, costume design, and creation of reference sheets.</li>
+                                <li data-i18n="main.projects.comdexHeist.roleResponsibility2">Worked on sculpting,
+                                    retopology, texturing, and UV unwrapping of the characters.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link"><span data-i18n="main.projects.comdexHeist.linkIntro">See
+                            progress:</span><a
+                            href="https://snowy-engine-238.notion.site/Comdex-Heist-53450a756f984286b9ec9e4bdfb3829a"><span
+                                data-i18n="main.projects.comdexHeist.linkText"> here</span></a></p>
+                </div>
+
+                <!-- Downsized -->
+                <div class="project-item programming art technical-art">
+
+                    <div class="media-wrapper">
+                        <video class="preview-video" autoplay loop muted playsinline>
+                            <source src="media/downsizedpreview.mp4" type="video/mp4">
+                        </video>
+                        <h3 data-i18n="main.projects.downsized.title">Downsized</h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.downsized.summaryTitle">Summary</h4>
+                            <p class="summary" data-i18n="main.projects.downsized.summaryText">An academic game project
+                                coded entirely from scratch using Monogame in C#, Downsized is a rudimentary top-down
+                                dungeon-crawler with a tongue-in-cheek theme of getting hired.</p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.downsized.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.downsized.roleIntro"></span><span
+                                        class="keyword programming"
+                                        data-i18n="main.projects.downsized.rolePosition1">Game Developer</span><span
+                                        data-i18n="main.projects.downsized.rolePositionAnd"> and </span><span
+                                        class="keyword art" data-i18n="main.projects.downsized.rolePosition2">Sprite
+                                        Artist</span></li>
+                                <li data-i18n="main.projects.downsized.roleResponsibility1">Worked in a four-person
+                                    team, contributing to the development of a level designer and programming the
+                                    graphics rendering for map and objects.</li>
+                                <li data-i18n="main.projects.downsized.roleResponsibility2">Gained an intimate
+                                    experience with programming a game from the ground up.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link"><span data-i18n="main.projects.downsized.linkIntro">Play the
+                            game:</span><a href="https://brmocarski.itch.io/downsized/"><span
+                                data-i18n="main.projects.downsized.linkText"> here</span></a></p>
+                </div>
+
+                <!-- Scrabble In The Bag -->
+                <div class="project-item programming technical-art">
+
+                    <div class="media-wrapper">
+                        <video class="preview-video" autoplay loop muted playsinline>
+                            <source src="media/scrabblepreview.mp4" type="video/mp4">
+                        </video>
+                        <h3 data-i18n="main.projects.scrabble.title">Scrabble In The Bag</h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.scrabble.summaryTitle">Summary</h4>
+                            <p class="summary" data-i18n="main.projects.scrabble.summaryText">A browser word game built
+                                with PixiJS, Scrabble In The Bag is a physics-based word matching game with scores and a
+                                dictionary based on Scrabble.</p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.scrabble.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.scrabble.roleIntro">Solo </span><span
+                                        class="keyword programming"
+                                        data-i18n="main.projects.scrabble.rolePosition1">Programmer</span><span
+                                        data-i18n="main.projects.scrabble.rolePositionAnd"> and </span><span
+                                        class="keyword art" data-i18n="main.projects.scrabble.rolePosition2">Technical
+                                        Artist</span></li>
+                                <li data-i18n="main.projects.scrabble.roleResponsibility1">Created this web-based video
+                                    game for a final project.</li>
+                                <li data-i18n="main.projects.scrabble.roleResponsibility2">Focused on sound design and
+                                    integrating the Scrabble dictionary for a fun and engaging experience.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link"><span data-i18n="main.projects.scrabble.linkIntro">Play the
+                            game:</span><a href="https://people.rit.edu/lra6595/235/project3/"><span
+                                data-i18n="main.projects.scrabble.linkText"> here</span></a></p>
+                </div>
+
+                <!-- Roodig -->
+                <div class="project-item art">
+
+                    <div class="media-wrapper">
+                        <img src="media/roodig.png" loading="lazy" alt="the title page of the video game Roodig">
+                        <h3 data-i18n="main.projects.roodig.title">Roodig</h3>
+                    </div>
+
+                    <div class="project-description-wrapper">
+                        <div class="summary-wrapper">
+                            <h4 data-i18n="main.projects.roodig.summaryTitle">Summary</h4>
+                            <p class="summary" data-i18n="main.projects.roodig.summaryText">A submission for the
+                                week-long 2023 Global Game Jam, where RIT students collaborated with students from
+                                Kyoto Computer Gakuin to develop a video game with the theme of 'Roots'!</p>
+                        </div>
+                        <div class="role-wrapper">
+                            <h4 data-i18n="main.projects.roodig.roleTitle">Role</h4>
+                            <ul class="role">
+                                <li><span data-i18n="main.projects.roodig.roleIntro">Lead </span><span
+                                        class="keyword other"
+                                        data-i18n="main.projects.roodig.rolePosition1">Interpreter</span><span
+                                        data-i18n="main.projects.roodig.and"> and </span><span class="keyword art"
+                                        data-i18n="main.projects.roodig.rolePosition2">Asset Artist</span></li>
+                                <li data-i18n="main.projects.roodig.roleResponsibility1">Helped manage asset creation in
+                                    an international group of 7.</li>
+                                <li data-i18n="main.projects.roodig.roleResponsibility2">Facilitated cross-cultural
+                                    communication between students and handled translation of key resources.</li>
+                                <li data-i18n="main.projects.roodig.roleResponsibility3">Interpreted feedback from
+                                    industry professionals in real-time.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p class="project-link"><span data-i18n="main.projects.roodig.linkIntro">Play the game:</span><a
+                            href="https://globalgamejam.org/2023/games/roodig-5"
+                            data-i18n="main.projects.roodig.linkText"> here</a></p>
+                </div>
+
+                <!-- Covid News Scanner
+            <div class="project-item programming">
+            <h3><span data-en="Covid News Scanner" data-ja="コロナニューススキャナー">Covid News Scanner</span></h3>
+            <img src="media/covidscanner.png" alt="a website with a graph of covid infections overtime and top covid articles on the selected date">
+            <h4><span data-en="Summary" data-ja="概要">Summary</span></h4>
+            <p class="summary"><span data-en="An interactive web page using COVID and NYT API data for analysis of the covid pandemic and its impact on news." data-ja="コロナとNYT APIデータを利用したインタラクティブなWebページで、コロナ禍とそのニュースへの影響を分析しています。">An interactive web page using COVID and NYT API data for analysis of the covid pandemic and its impact on news.</span></p>
+            <h4><span data-en="Role" data-ja="役割">Role</span></h4>
+            <p class="role"><span data-en="As a solo " data-ja="ソロ">As a solo </span><span class="keyword programming" data-en="Web Developer" data-ja="ウェブ開発者">Web Developer</span><span data-en=", I crafted a website utilizing multiple APIs for effective data and news sentiment analysis." data-ja="として、複数のAPIを利用して効果的なデータとニュースのセンチメント分析ができるウェブサイトを制作しました。">, I crafted a website utilizing multiple APIs for effective data and news sentiment analysis.</span></p>
+            <p class="project-link"><span data-en="View the site:" data-ja="サイトを見る：">View the site:</span><a href="https://people.rit.edu/lra6595/235/project2/" data-en=" here" data-ja="こちら"> here</a></p>
+            </div>-->
+
+                <!-- Kanken Hompage 
+            <div class="project-item programming">
+            <h3><span data-en="Kanji Kentei Review Homepage" data-ja="漢字検定復習ホームページ">Kanji Kentei Review Homepage</span></h3>
+            <img src="media/kanken.png" alt="a homepage website for reviewing Japanese kanji">
+            <h4><span data-en="Summary" data-ja="概要">Summary</span></h4>
+            <p class="summary"><span data-en="Using kanji data fetched from " data-ja="「">Using kanji data fetched from </span><a href="https://www.kanjipedia.jp/" data-en="Kanjipedia" data-ja="漢字ペディア">Kanjipedia</a><span data-en=", word data scraped and programatically sorted from " data-ja="」から取得した漢字データ、「">, word data scraped and programatically sorted from </span><a href="https://jisho.org/" data-en="Jisho" data-ja="辞書">Jisho</a><span data-en=", and sentences from the " data-ja="」からスクレイプしプログラムで整理された単語データ、そして">, and sentences from the </span><a href="https://massif.la/ja" data-en="massif.la" data-ja="massif.la">massif.la</a><span data-en=" API, the Kanken Homepage is a sleek, modern-looking webpage which generates all the needed information to review kanji on the go." data-ja=" APIからの文章を使って、漢字検定復習ホームページは、移動中に漢字を復習するために必要なすべての情報を生成する、スタイリッシュでモダンな外観のウェブページです。"> API, the Kanken Homepage is a sleek, modern-looking webpage which generates all the needed information to review kanji on the go.</span></p>
+            <h4><span data-en="Role" data-ja="役割">Role</span></h4>
+            <p class="role"><span data-en="As a solo " data-ja="ソロ">As a solo </span><span class="keyword programming" data-en="Web Developer" data-ja="ウェブ開発者">Web Developer</span><span data-en=", I designed a sleek website and gathered Japanese kanji data using " data-ja="として、スタイリッシュなウェブサイトをデザインし、">, I designed a sleek website and gathered Japanese kanji data using </span><span class="keyword programming" data-en="nodeJS" data-ja="nodeJS">nodeJS</span><span data-en=" in order to make a custom homepage for casual new-tab kanji review." data-ja="を使って日本語の漢字データを収集し、カジュアルな新しいタブで漢字を復習するためのカスタムホームページを作成しました。"> in order to make a custom homepage for casual new-tab kanji review.</span></p>
+            <p class="project-link"><span data-en="View the site:" data-ja="サイトを見る：">View the site:</span><a href="https://people.rit.edu/lra6595/kanken/" data-en=" here" data-ja="こちら"> here</a></p>
+            </div>-->
+
+                <!-- Japanese Collocation Visualizer
+            <div class="project-item programming">
+            <h3><span data-en="Japanese Collocation Visualizer" data-ja="日本語コロケーションビジュアライザー">Japanese Collocation Visualizer</span></h3>
+            <img src="media/collocation.png" alt="a website used for visualizing Japanese lexical collocations">
+            <h4><span data-en="Summary" data-ja="概要">Summary</span></h4>
+            <p class="summary"><span data-en="The Japanese Collocation Visualizer is a web tool developed to visualize lexical collocations in Japanese, showing which words appear frequently together." data-ja="日本語コロケーションビジュアライザーは、日本語の語彙コロケーションを可視化するために開発されたWebツールで、頻繁に一緒に現れる単語を表示します。">The Japanese Collocation Visualizer is a web tool developed to visualize lexical collocations in Japanese, showing which words appear frequently together.</span></p>
+            <h4><span data-en="Role" data-ja="役割">Role</span></h4>
+            <p class="role"><span data-en="As a solo " data-ja="ソロ">As a solo </span><span class="keyword programming" data-en="Web Developer" data-ja="ウェブ開発者">Web Developer</span><span data-en=", I utilized data scraping from an open-source sentence search tool to visualize and graph the relations between words in Japanese." data-ja="として、オープンソースの文章検索ツールからデータをスクレイピングし、日本語の単語間の関係を可視化してグラフ化しました。">, I utilized data scraping from an open-source sentence search tool to visualize and graph the relations between words in Japanese.</span></p>
+            <p class="project-link"><span data-en="View the site:" data-ja="サイトを見る：">View the site:</span><a href="https://people.rit.edu/lra6595/massifvisualizer/" data-en=" here" data-ja="こちら"> here</a></p>
+            </div>
+             -->
+            </section>
+
+            <h1 id="art-title" data-i18n="main.art.title">Art Samples</h1>
+            <section class="solo-art">
+
+                <div class="solo-art-item">
+
+                    <div class="art-media-wrapper">
+                        <video autoplay loop muted playsinline>
+                            <source src="media/fleaflee.mp4" type="video/mp4">
+                        </video>
+                        <h3 data-i18n="main.art.flea.title">Flea Flee</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.flea.description">A class project animation
+                        created as a game-pitch trailer, featuring a flea escaping from a human cell with the help of a
+                        nuke-throwing mitochondria.</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <video autoplay loop muted playsinline>
+                            <source src="media/reiji.mp4" type="video/mp4">
+                        </video>
+                        <h3 data-i18n="main.art.cubed.title">Cubed</h3>
+                    </div>
+                    
+                    <p class="summary" data-i18n="main.art.cubed.description">A 3D modeled robot character playing with
+                        a Rubik's cube.</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <img src="media/anijam.gif" loading="lazy" alt="an animation of K-VRC dancing on a DDR machine">
+                        <h3 data-i18n="main.art.kvrc.title">K-VRC DDR</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.kvrc.description">An anijam submission of a rotoscoped 3D
+                        animation I made with a rig of the character K-VRC.</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <img src="media/AquariumSigned.png" loading="lazy" alt="a girl sitting in an aquarium full of robotic sea life">
+                        <h3 data-i18n="main.art.aquarium.title">Aquarium</h3>
+                    </div>
+                    
+                    <p class="summary" data-i18n="main.art.aquarium.description">A 3D scene of a girl in a cyberpunk
+                        aquarium.</p>
+                </div>
+
+                <div class="solo-art-item">
+
+                    <div class="art-media-wrapper">
+                        <img src="media/cookiebot.gif" loading="lazy"
+                            alt="a cookie robot coming out of hiding, before jumping and hiding back into its shell">
+                        <h3 data-i18n="main.art.cookierobot.title">Cookie Robot</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.cookierobot.description">A quick recreation and animation of
+                        the Cookie Robots in Despicable Me, recreated in Maya for a 3D Asset Production class.</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <img src="media/argus.png" loading="lazy" alt="a robot butler Dungeons & Dragons character design">
+                        <h3 data-i18n="main.art.robotbutler.title">Robot Butler</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.robotbutler.description">A character from one of the first
+                        D&D campaigns I participated in!</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <img src="media/poolsigned.png" loading="lazy"
+                            alt="a cave pool scene with a shattered television on a rock in the center">
+                        <h3 data-i18n="main.art.cave.title">Cave</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.cave.description">A drawing of a crystal-blue water cave
+                        setting with a shattered washed-up TV.</p>
+                </div>
+
+                <div class="solo-art-item">
+                    
+                    <div class="art-media-wrapper">
+                        <img src="media/ProjectDelta.png" loading="lazy"
+                            alt="a lineup of four characters from a Dungeons & Dragons campaign">
+                        <h3 data-i18n="main.art.projectdelta.title">Project Delta</h3>
+                    </div>
+
+                    <p class="summary" data-i18n="main.art.projectdelta.description">The player lineup from said campaign.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <button id="scroll-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+    <script async src="script.js"></script>
+</body>
+
+</html>

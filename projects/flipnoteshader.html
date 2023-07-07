@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="flipnoteshader.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Josefin+Sans:wght@700&family=Klee+One&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <title data-i18n="head.title">Liam Armitage - Technical Artist</title>
+  <link rel="icon" type="image/x-icon" href="../media/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="mailto:lra6595@rit.edu" class="social-icon" aria-label="Email"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/liamarmitage/" target="_blank" class="social-icon" aria-label="LinkedIn"><i
+            class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/PukekoKiwi" target="_blank" class="social-icon" aria-label="GitHub"><i
+            class="fa fa-github"></i></a>
+        <a href="https://twitter.com/LiamArmitage_" target="_blank" class="social-icon" aria-label="Twitter"><i
+            class="fa fa-twitter"></i></a>
+      </nav>
+      <div class="bio">
+        <img src="../media/selfie.png" alt="Liam Armitage">
+        <div class="personal-info">
+          <h1 data-i18n="header.title">Liam Armitage</h1>
+          <h2 data-i18n="header.subTitle">Technical Artist</h2>
+          <a href="../media/Liam_Armitage_Resume.pdf" download class="resume-download"><i
+              class="fa fa-download"></i><span data-i18n="header.resume">&nbsp; Resume</span></a>
+        </div>
+      </div>
+      <button id="to-portfolio" onclick="window.location.href='../index.html';" data-i18n="header.back">To
+        Portfolio</button>
+      <button id="about-me" onclick="window.location.href='../aboutme.html';" data-i18n="header.about">About Me</button>
+      <button id="translate" onclick="translateWebsite('projects/flipnote');" data-i18n="header.translate">Ａ →
+        あ</button>
+    </header>
+
+    <main>
+      <section class="project-wrapper">
+
+        <div class="introduction-wrapper">
+
+          <h1 class="project-title" data-i18n="main.introduction.title">Developing a Flipnote-Inspired Shader</h1>
+
+          <p class="project-description" data-i18n="main.introduction.description">
+            For this project, I tried to capture the visual style of Flipnote
+            Studio on the Nintendo DSi and 3DS, translating that unique aesthetic into a real-time 3D environment.
+            The challenge was tackled through HLSL shader programming within Unity.
+          </p>
+
+          <p class="section-description" data-i18n="main.introduction.link"> 
+            If you'd like to see the details of my process, feel free to look at my journal for it  
+            <a href="https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6">here</a>!
+           </p>
+
+        </div>
+
+        <div class="video-sidebyside-wrapper">
+
+          <div class="approach-container">
+
+            <h2 class="section-title" data-i18n="main.approach.title">Approach to Design</h2>
+            <p class="section-description" data-i18n="main.approach.description">
+              The shader design process was a great look through the following techniques:
+            </p>
+            <ul class="design-methods">
+              <li class="design-method" data-i18n="main.approach.method1">
+                <b>Screenspace Dithering:</b> Using Python, I generated a volumetric mapping texture that finds the
+                nearest visually equivalent shade from the 3DS color palette and points to the top left corner of an 8x8
+                square of that 'dither palette'. Then, in the shader, the pixel coordinates are used to determine its
+                position in the 8x8 cell, leading to a screenspace dithering effect.</li>
+              <li class="design-method" data-i18n="main.approach.method2">
+                <b>Depth-Normals:</b> This approach involved a combination of two maps: a normal map of the scene and
+                a depth map. They were multiplied together to create a reliable way of outlining close objects to the
+                camera.</li>
+              <li class="design-method" data-i18n="main.approach.method3">
+                <b>Edge Detection:</b> For this, I applied a Sobel Filter, which involves convolving a kernel on
+                the x and y coordinates of an image. In this case, it was applied to the depth normals.</li>
+              <li class="design-method" data-i18n="main.approach.method4">
+                <b>Noise-Accented Outline:</b> Applying a pseudo-random number generator to add a 'sketchy' feel to
+                outlines, reminiscent of the Flipnote's casual, low-res feel.</li>
+            </ul>
+
+            <p class="section-description" data-i18n="main.approach.description2">
+              Despite challenges with interfacing with Unity's built-in functions and
+              parsing through dense documentation, with assistance from peers and substantial research, I managed to
+              pull through and learn a ton about programming shaders at the base level!</p>
+
+          </div>
+
+          <div class="video-container">
+            <video class="demo-video" controls>
+              <source src="projectmedia/flipnote/flipnoteshader.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+
+        <div class="visualization-wrapper">
+
+          <h2 class="section-title" data-i18n="main.visualization.title">Visualizations & Previews</h2>
+
+          <div class="visualizations">
+
+            <figure class="preview-figure">
+              <img class="preview-image" src="projectmedia/flipnote/Dithered_Colormaps.png" loading="lazy"
+                alt="Dithered color distance models">
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption1">
+                Dithered representions of different color distance models using the 3DS Color Palette.</figcaption>
+            </figure>
+
+            <figure class="preview-figure">
+              <video class="preview-video" autoplay loop muted playsinline>
+                <source src="projectmedia/flipnote/3DS_crosssection_animation.mp4" type="video/mp4">
+              </video>
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption2">
+                A visualization of the volumetric mapping texture for the 3DS color palette.</figcaption>
+            </figure>
+
+            <figure class="preview-figure">
+              <img class="preview-image" src="projectmedia/flipnote/edgenoise.gif" loading="lazy" alt="Edge noise dispersion">
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption3">
+                Edge dispersion created through noise, adding to the fun sketchyquality of the shader!</figcaption>
+            </figure>
+
+          </div>
+
+        </div>
+
+        <div class="conclusion-wrapper">
+
+          <div class="diagram-wrapper">
+            <img class="diagram-image" src="projectmedia/flipnote/diagram.png"
+              alt="A diagram depicting the data flow in the Flipnote-Inspired Shader">
+          </div>
+
+          <div class="conclusion-text-wrapper">
+            <h2 class="section-title" data-i18n="main.conclusion.title1">Optimization and Future Plans</h2>
+            <p class="section-description" data-i18n="main.conclusion.description1">
+              I identified potential improvements to the system that could significantly
+              enhance performance. For instance, merging the dither palette with the volumetric texture that is sampled
+              for each fragment would reduce the number of sample calls—a significant area for performance gain. I also
+              plan to explore less computationally expensive math calculations for the noise function.</p>
+
+            <h2 class="section-title" data-i18n="main.conclusion.title2">Application and Integration</h2>
+            <p class="section-description" data-i18n="main.conclusion.description2">
+              The shader, packaged as a user-friendly Unity package file, can be easily
+              implemented as a post-processing effect on any camera. You can download it here!</p>
+            <a href="projectmedia/flipnote/flipnoteshader.unitypackage" download class="unitypackage-download"><i
+                class="fa fa-download"></i>&nbsp; FlipnoteShader.unitypackage</a>
+
+            <h2 class="section-title" data-i18n="main.conclusion.title3">Inspiration and Learning</h2>
+            <p class="section-description" data-i18n="main.conclusion.description3">
+              This project was an invaluable learning journey. Various super cool online peeps, such as 
+              <a href="https://www.youtube.com/@Acerola_t" class="inspirations" target="_blank">Acerola</a>,
+              <a href="https://www.youtube.com/@Acegikmo" class="inspirations" target="_blank">Freya Holmér</a>, and
+              <a href="https://www.ronja-tutorials.com/" class="inspirations" target="_blank">Ronja</a>, were amazing
+              introductions into this sort of thing. I found this project to be a wonderful fusion of technical exploration and
+              nostalgic aesthetic. It's been a thrilling process and I'm looking forward to pushing the boundaries of
+              what's possible with shader programming in the future!
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+  </div>
+  <button id="scroll-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+  <script async src="../script.js"></script>
+</body>
+
+</html>

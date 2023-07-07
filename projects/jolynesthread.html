@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="jolynesthread.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Josefin+Sans:wght@700&family=Klee+One&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <title data-i18n="head.title">Liam Armitage - Technical Artist</title>
+  <link rel="icon" type="image/x-icon" href="../media/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="mailto:lra6595@rit.edu" class="social-icon" aria-label="Email"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/liamarmitage/" target="_blank" class="social-icon" aria-label="LinkedIn"><i
+            class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/PukekoKiwi" target="_blank" class="social-icon" aria-label="GitHub"><i
+            class="fa fa-github"></i></a>
+        <a href="https://twitter.com/LiamArmitage_" target="_blank" class="social-icon" aria-label="Twitter"><i
+            class="fa fa-twitter"></i></a>
+      </nav>
+      <div class="bio">
+        <img src="../media/selfie.png" alt="Liam Armitage">
+        <div class="personal-info">
+          <h1 data-i18n="header.title">Liam Armitage</h1>
+          <h2 data-i18n="header.subTitle">Technical Artist</h2>
+          <a href="../media/Liam_Armitage_Resume.pdf" download class="resume-download"><i
+              class="fa fa-download"></i><span data-i18n="header.resume">&nbsp; Resume</span></a>
+        </div>
+      </div>
+      <button id="to-portfolio" onclick="window.location.href='../index.html';" data-i18n="header.back">To
+        Portfolio</button>
+      <button id="about-me" onclick="window.location.href='../aboutme.html';" data-i18n="header.about">About Me</button>
+      <button id="translate" onclick="translateWebsite('projects/jolyne');" data-i18n="header.translate">Ａ →
+        あ</button>
+    </header>
+    <main>
+
+      <section class="project-wrapper">
+
+        <div class="introduction-wrapper">
+
+          <h1 class="project-title" data-i18n="main.introduction.title">Jolyne's Thread - Procedural Asset Generation
+          </h1>
+
+          <p class="project-description" data-i18n="main.introduction.description">
+            This project, inspired by Jolyne Cujoh from JoJo's Bizarre Adventure: Stone Ocean, set out to create a
+            system that allows artists and animators to create and manipulate threads dynamically in Blender using
+            geometry nodes. The project was a deep dive into procedural asset generation, where I learned how to develop
+            tools that serve the creative needs of end users and artists.
+          </p>
+
+          <p class="section-description" data-i18n="main.introduction.link">
+            For a detailed insight into my process, feel free to peruse my project journal
+            <a href="https://snowy-engine-238.notion.site/100-Days-of-Tech-Art-94e362b1607e45029b795429b6d6c4f6">here</a>!
+          </p>
+
+        </div>
+
+        <div class="video-sidebyside-wrapper">
+
+          <div class="approach-container">
+
+            <h2 class="section-title" data-i18n="main.approach.title">Technical Implementation</h2>
+            <p class="section-description" data-i18n="main.approach.description">
+              The project was implemented through a blend of unique techniques:
+            </p>
+            <ul class="design-methods">
+              <li class="design-method" data-i18n="main.approach.method1">
+                <b>Bézier Curves and Geometry Nodes:</b> I used Blender's geometry nodes to create a system allowing for
+                the generation and manipulation of thread paths and procedural text.
+              </li>
+              <li class="design-method" data-i18n="main.approach.method2">
+                <b>Dynamic Mesh Creation:</b> The thread is represented as a dynamic mesh, which adapts in real-time to
+                changes in the spline.
+              </li>
+              <li class="design-method" data-i18n="main.approach.method3">
+                <b>Interactivity and Control:</b> I implemented a wide array of editable variables within Blender's node
+                editor. These allow the artist to easily change things such as radius and graphic fidelity, as well as
+                text settings like positioning, spacing, rotation, scaling, and animated noise values.
+              </li>
+            </ul>
+
+            <p class="section-description" data-i18n="main.approach.description2">
+              The thread asset had to adapt to changes in real-time, be visually consistent, and above all, be intuitive
+              for artists to use. Ensuring the tool lived up to these standards involved breaking down complex problems
+              into their component parts, tackling vector math, and mastering Blender's toolset.
+            </p>
+
+          </div>
+
+          <div class="video-container">
+            <video class="demo-video" controls poster="projectmedia/jolynesthread/thumbnail.png" playsinline>
+              <source src="projectmedia/jolynesthread/jolynesthread.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+
+        <div class="visualization-wrapper">
+
+          <h2 class="section-title" data-i18n="main.visualization.title">Visualizations</h2>
+
+          <div class="visualizations">
+
+            <figure class="preview-figure">
+              <img class="preview-image" src="projectmedia/jolynesthread/endcaps.gif" loading="lazy"
+                alt="Dithered color distance models">
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption1">
+                Endcaps following the rotation and orientation of the rest of the thread.</figcaption>
+            </figure>
+
+            <figure class="preview-figure">
+              <img class="preview-image" src="projectmedia/jolynesthread/text.gif" loading="lazy"
+                alt="Dithered color distance models">
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption2">
+                A demonstration of what can be done with text via only artist-controlled parameters.</figcaption>
+            </figure>
+
+            <figure class="preview-figure">
+              <img class="preview-image" src="projectmedia/jolynesthread/gradient.gif" loading="lazy"
+                alt="Dithered color distance models">
+              <figcaption class="preview-caption" data-i18n="main.visualization.caption3">
+                The impact of scrubbing a color-ramp on the thread's texture.</figcaption>
+            </figure>
+
+          </div>
+
+        </div>
+
+        <div class="conclusion-wrapper">
+
+          <div class="conclusion-text-wrapper">
+            <h2 class="section-title" data-i18n="main.conclusion.title1">Future Plans</h2>
+            <p class="section-description" data-i18n="main.conclusion.description1">
+              In the future, I'm planning to add another layer of abstraction to the thread mesh and have the thread
+              itself follow a curve, making it more intuitive for artists. Further enhancements include improving the
+              texture mapping algorithm for a more visually appealing thread.
+            </p>
+
+            <p class="section-description" data-i18n="main.conclusion.description2">
+              The largest problem at the moment is that the number of control points must remain constant for the duration 
+              of the animation, and any new points made in the editor must be added at the end. In the future I think that
+              this could be solved using a different different type of curve, most likely custom-made.
+            </p>
+
+            <h2 class="section-title" data-i18n="main.conclusion.title2">Download the Asset</h2>
+            <p class="section-description" data-i18n="main.conclusion.description3">
+              To make use of the asset in your own projects, feel free to download it here!
+            </p>
+            <a href="projectmedia/jolynesthread/JolyneThread.blend" download class="asset-download">
+              <i class="fa fa-download"></i>&nbsp; JolyneThread.blend</a>
+
+            <h2 class="section-title" data-i18n="main.conclusion.title3">Going Forward</h2>
+            <p class="section-description" data-i18n="main.conclusion.description4">
+              This project was a unique journey into procedural asset generation, challenging me to develop
+              artist-friendly tools. I look forward to exploring further in the realms of asset generation and tool
+              creation.
+            </p>
+
+            <img class="diagram-image" src="projectmedia/jolynesthread/threadnodes.png"
+              alt="the node network of the thread asset">
+
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+  </div>
+  <button id="scroll-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+  <script src="../script.js"></script>
+</body>
+
+</html>
