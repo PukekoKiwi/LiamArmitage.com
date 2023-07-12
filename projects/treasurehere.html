@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="treasurehere.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Josefin+Sans:wght@700&family=Klee+One&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <title data-i18n="head.title">Liam Armitage - Technical Artist</title>
+  <link rel="icon" type="image/x-icon" href="../media/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="mailto:lra6595@rit.edu" class="social-icon" aria-label="Email"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/liamarmitage/" target="_blank" class="social-icon" aria-label="LinkedIn"><i
+            class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/PukekoKiwi" target="_blank" class="social-icon" aria-label="GitHub"><i
+            class="fa fa-github"></i></a>
+        <a href="https://twitter.com/LiamArmitage_" target="_blank" class="social-icon" aria-label="Twitter"><i
+            class="fa fa-twitter"></i></a>
+      </nav>
+      <div class="bio">
+        <img src="../media/selfie.png" alt="Liam Armitage">
+        <div class="personal-info">
+          <h1 data-i18n="header.title">Liam Armitage</h1>
+          <h2 data-i18n="header.subTitle">Technical Artist</h2>
+          <a href="../media/Liam_Armitage_Resume.pdf" download class="resume-download"><i
+              class="fa fa-download"></i><span data-i18n="header.resume">&nbsp; Resume</span></a>
+        </div>
+      </div>
+      <button id="to-portfolio" onclick="window.location.href='../index.html';" data-i18n="header.back">To
+        Portfolio</button>
+      <button id="about-me" onclick="window.location.href='../aboutme.html';" data-i18n="header.about">About Me</button>
+      <button id="translate" onclick="translateWebsite('projects/treasurehere');" data-i18n="header.translate">Ａ →
+        あ</button>
+    </header>
+    <main>
+        <section class="project-wrapper">
+            <div class="introduction-wrapper">
+                <h1 class="project-title" data-i18n="main.project-title">Treasure Here - A 2023 GMTK Game Jam Project</h1>
+                <p class="project-description" data-i18n="main.project-description">
+                    Treasure Here is an innovative take on dungeon-crawler games, inviting the player to adopt the role of a villainous entity enticing naive adventurers into a perilous dungeon. The project was a part of the GMTK Game Jam 2023, with the theme "Roles Reversed".
+                </p>
+                <p class="section-description" data-i18n="main.section-description">
+                    Feel free to play the game on
+                    <a href="https://awesomecake.itch.io/treasure-here" target="_blank">itch.io</a>!
+                </p>
+            </div>
+
+            <div class="sidebyside-wrapper">
+
+                <div class="role-and-assets-container">
+                    <h2 class="section-title" data-i18n="main.role-title">Role and Contribution</h2>
+                    <p class="section-description" data-i18n="main.role-description">
+                      As the <b>Character and Background Artist</b>, I was tasked with shaping the visual language of the game. Drawing inspiration from notable pixel-art games like Tiny Tower, Celeste, and Owlboy, I utilized the Endesga 64 palette in Aseprite to craft appealing character sprites and captivating backgrounds.
+                    </p>
+    
+                    <h2 class="section-title" data-i18n="main.creation-title">Creation of Assets</h2>
+                    <p class="section-description" data-i18n="main.creation-description">
+                      From characters to environments, each asset was carefully designed to contribute to the overall ambiance of the game. I employed techniques like photobashing and gradient mapping, adding a rich depth and complexity to the backgrounds of our world!
+                    </p>
+                </div>
+
+                <div class="title-container">
+                    <img class="title" src="projectmedia/treasurehere/cover.png" alt="Treasure Here title art">
+                </div>
+
+            </div>
+    
+            <div class="visualization-wrapper">
+                <h2 class="section-title" data-i18n="main.artwork-title">Artwork</h2>
+                <div class="visualizations">
+                    <figure class="preview-figure">
+                        <img class="preview-image" src="projectmedia/treasurehere/characters.gif" loading="lazy" alt="adventurer sprite animations">
+                    </figure>
+                    <figure class="preview-figure">
+                        <img class="preview-image" src="projectmedia/treasurehere/traps.gif" loading="lazy" alt="monster sprite animations">
+                    </figure>
+                    <figure class="preview-figure">
+                        <img class="preview-image p-i-border" src="projectmedia/treasurehere/sellbg.png" loading="lazy" alt="the town shop background sprite">
+                    </figure>
+                    <figure class="preview-figure">
+                        <img class="preview-image p-i-border" src="projectmedia/treasurehere/cavebg.png" loading="lazy" alt="the cave background sprite, where battles take place">
+                    </figure>
+                    <figure class="preview-figure">
+                        <img class="preview-image p-i-border" src="projectmedia/treasurehere/creditsbg.png" loading="lazy" alt="the background of the credits screen">
+                    </figure>
+                    <figure class="preview-figure">
+                        <img class="preview-image p-i-border" src="projectmedia/treasurehere/shopbganimated.gif" loading="lazy" alt="the monster shop background sprite">
+                    </figure>
+                </div>
+            </div>
+    
+            <div class="conclusion-wrapper">
+                <div class="conclusion-text-wrapper">
+                    <h2 class="section-title" data-i18n="main.conclusion.challenges.title">Challenges and Solutions</h2>
+                    <p class="section-description" data-i18n="main.conclusion.challenges.description">
+                      Working within a tight 48-hour deadline presented unique challenges, particularly in aligning the pixel art and UI. However, our team's cohesion and adaptability allowed us to navigate these challenges successfully, leading to a game that we are incredibly proud of.
+                    </p>
+    
+                    <h2 class="section-title" data-i18n="main.conclusion.feedback.title">Feedback and Recognition</h2>
+                    <p class="section-description" data-i18n="main.conclusion.feedback.description">
+                      Our game has been warmly received, with players commending our innovative concept and visually pleasing art. As we move forward, we aim to continue improving Treasure Here's stability and user interface.
+                    </p>
+    
+                    <h2 class="section-title" data-i18n="main.conclusion.futureplans.title">Future Plans</h2>
+                    <p class="section-description" data-i18n="main.conclusion.futureplans.description">
+                      We are currently focused on enhancing the stability and improving the UI of the game. More extensive updates and perhaps additional features are under consideration for the future.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>    
+  </div>
+  <button id="scroll-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+  <script src="../script.js"></script>
+</body>
+
+</html>

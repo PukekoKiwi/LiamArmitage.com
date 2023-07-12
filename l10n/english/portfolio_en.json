@@ -26,6 +26,18 @@
             "jumpToArtSamples": "Jump to Art Samples"
         },
         "projects": {
+            "treasureHere": {
+                "title": "Treasure Here",
+                "summaryTitle": "Summary",
+                "summaryText": "A retro-styled pixel art game, designed and developed during the 48-hour GMTK Game Jam. You play as a bad guy enticing 'players' to raid your dungeon, selling the loot you get from defeating them in the process!",
+                "roleTitle": "Role",
+                "roleResponsibility1": "",
+                "artist": "Character & Background Artist",
+                "roleResponsibility2": "Crafted 15 animated character sprites and 5 unique background art assets",
+                "roleResponsibility3": "Collaborated with a team of 5, fostering a communicative and collaborative development environment",
+                "linkIntro": "Play the game:",
+                "linkText": " here"
+            },
             "flipnoteShader": {
                 "title": "Flipnote Shader",
                 "summaryTitle": "Summary",
@@ -41,7 +53,7 @@
             "jolynesThread": {
                 "title": "Jolyne's Thread",
                 "summaryTitle": "Summary",
-                "summaryText": "A completely procedural replication of Jolyne's thread from Jojo's Bizarre Adventure, complete with customizable and animatable parameters, text animation, noise, and textures. The video above demonstrates the tool, featuring a Jolyne model by DarienToad on Sketchfab.",
+                "summaryText": "A completely procedural replication of Jolyne's thread from Jojo's Bizarre Adventure, complete with customizable and animatable parameters, text animation, noise, and textures. The video above demonstrates the tool, featuring a <a href='https://sketchfab.com/3d-models/jolyne-kujo-55132ba1affd4a91b6c1f1f5003f357e'> Jolyne model </a>by DarienToad on Sketchfab.",
                 "roleTitle": "Role",
                 "roleResponsibility1": "Solo ",
                 "techArtist": "Technical Artist",

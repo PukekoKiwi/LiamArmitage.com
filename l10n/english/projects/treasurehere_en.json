@@ -1,0 +1,37 @@
+{
+    "head": {
+        "title": "Liam Armitage - Technical Artist"
+    },
+    "header": {
+        "title": "Liam Armitage",
+        "subTitle": "Technical Artist",
+        "resume": "&nbsp; Resume",
+        "back": "To Portfolio",
+        "about": "About Me",
+        "translate": "Ａ → あ"
+    },
+    "main": {
+        "project-title": "Treasure Here - A 2023 GMTK Game Jam Project",
+        "project-description": "Treasure Here is an innovative take on dungeon-crawler games, inviting the player to adopt the role of a villainous entity enticing naive adventurers into a perilous dungeon. The project was a part of the GMTK Game Jam 2023, with the theme 'Roles Reversed'.",
+        "section-description": "Feel free to play the game on <a href='https://awesomecake.itch.io/treasure-here' target='_blank'>itch.io!</a>",
+        "role-title": "Role and Contribution",
+        "role-description": "As the Character and Background Artist, I was tasked with shaping the visual language of the game. Drawing inspiration from notable pixel-art games like Tiny Tower, Celeste, and Owlboy, I utilized the Endesga 64 palette in Aseprite to craft appealing character sprites and captivating backgrounds.",
+        "creation-title": "Creation of Assets",
+        "creation-description": "From characters to environments, each asset was carefully designed to contribute to the overall ambiance of the game. I employed techniques like photobashing and gradient mapping, adding a rich depth and complexity to the backgrounds of our world!",
+        "artwork-title": "Artwork",
+        "conclusion": {
+            "challenges": {
+                "title": "Challenges and Solutions",
+                "description": "Working within a tight 48-hour deadline presented unique challenges, particularly in aligning the pixel art and UI. However, our team's cohesion and adaptability allowed us to navigate these challenges successfully, leading to a game that we are incredibly proud of."
+            },
+            "feedback": {
+                "title": "Feedback and Recognition",
+                "description": "Our game has been warmly received, with players commending our innovative concept and visually pleasing art. As we move forward, we aim to continue improving Treasure Here's stability and user interface."
+            },
+            "futureplans": {
+                "title": "Future Plans",
+                "description": "We are currently focused on enhancing the stability and improving the UI of the game. More extensive updates and perhaps additional features are under consideration for the future."
+            }
+        }
+    }
+}

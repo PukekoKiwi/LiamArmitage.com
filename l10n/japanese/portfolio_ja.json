@@ -26,6 +26,18 @@
             "jumpToArtSamples": "アートサンプルへ"
         },
         "projects": {
+            "treasureHere": {
+                "title": "トレジャー・ヒア",
+                "summaryTitle": "概要",
+                "summaryText": "レトロなピクセルアートスタイルのゲームで、48時間のGMTK Game Jam中にデザインと開発が行われました。あなたは悪役で、プレイヤーをあなたのダンジョンに誘い込み、倒して手に入れた戦利品を売ることで成り立っています！",
+                "roleTitle": "役割",
+                "roleResponsibility1": "",
+                "artist": "キャラクター＆背景アーティスト",
+                "roleResponsibility2": "アニメーションされたキャラクタースプライト15体とユニークな背景アートアセット5つを制作",
+                "roleResponsibility3": "5人のチームと協力して、コミュニケーションと協力を重視した開発環境を築き",
+                "linkIntro": "ゲームをプレイ：",
+                "linkText": "こちら"
+            },
             "flipnoteShader": {
                 "title": "うごくメモ帳シェーダ",
                 "summaryTitle": "概要",
@@ -41,12 +53,12 @@
             "jolynesThread": {
                 "title": "徐倫の糸",
                 "summaryTitle": "概要",
-                "summaryText": "ジョジョの奇妙な冒険の徐倫の糸を完全に手順で再現し、カスタマイズ可能でアニメーション化されたパラメータ、テキストアニメーション、ノイズ、テクスチャが含まれています。上のビデオはこのツールを使って作成したもので、DarienToadのSketchfabでの徐倫モデルをフィーチャーしています。",
+                "summaryText": "ジョジョの奇妙な冒険の徐倫の糸を完全に手順で再現し、カスタマイズ可能でアニメーション化されたパラメータ、テキストアニメーション、ノイズ、テクスチャが含まれています。上のビデオはこのツールを使って作成したもので、DarienToadのSketchfabでの<a href='https://sketchfab.com/3d-models/jolyne-kujo-55132ba1affd4a91b6c1f1f5003f357e'>徐倫モデル</a>をフィーチャーしています。",
                 "roleTitle": "役割",
                 "roleResponsibility1": "ソロ",
                 "techArtist": "テクニカルアーティスト",
-                "roleResponsibility2": "Blenderのジオメトリノードとシェーダーノードを使用して汎用性のあるアセットを設計・実装しました。",
-                "roleResponsibility3": "クリエイティブなコンテキストでの効果の可能性を強調する視覚的に鮮やかな歌詞ビデオを制作しました。",
+                "roleResponsibility2": "Blenderのジオメトリノードとシェーダーノードを使用して汎用性のあるアセットを設計・実装。",
+                "roleResponsibility3": "クリエイティブなコンテキストでの効果の可能性を強調する視覚的に鮮やかな歌詞ビデオを制作。",
                 "linkIntro": "制作について読む：",
                 "linkText": "こちら"
             },
