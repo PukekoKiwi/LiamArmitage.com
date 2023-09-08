@@ -1,12 +1,12 @@
 {
-    "title": "Liam Armitage - Technical Artist",
+    "title": "Liam Armitage - Technical Designer",
     "name": "Liam Armitage",
-    "role": "Technical Artist",
+    "role": "Technical Designer",
     "resume": "&nbsp; Resume",
     "translate": "Ａ → あ",
     "greetings": "Salutations!",
-    "intro": "I'm Liam Armitage, a passionate <span class='keyword art'>Technical Artist</span> with a keen focus on shader programming, VFX, rigging, and asset optimization. As I approach my graduation from the Rochester Institute of Technology in December 2024 with a Bachelor of Science in <span class='keyword other'>Game Design and Development</span>, I'm excited to leverage my accumulated skills and experience to create fantastic looking and performant gaming experiences!",
+    "intro": "I'm Liam Armitage, a passionate <span class='keyword art'>Technical Designer</span> with a keen focus on system design and player experience optimization. As I approach my graduation from the Rochester Institute of Technology in December 2024 with a Bachelor of Science in <span class='keyword other'>Game Design and Development</span>, I'm eager to apply my cultivated skills and knowledge to craft intuitive and immersive gaming experiences!",
     "skills": "I'm adept with an array of game engine and modeling tools like <span class='keyword art'>Maya</span> and <span class='keyword art'>Blender</span>, <span class='keyword art'>Unreal Engine</span>, <span class='keyword art'>Unity</span>, and more. My programming prowess covers languages such as <span class='keyword programming'>C++</span>, <span class='keyword programming'>C#</span>, <span class='keyword programming'>HLSL</span>, and <span class='keyword programming'>Python</span>. Fluent in both <span class='keyword other'>English</span> and <span class='keyword other'>Japanese</span> (N1 certified), I excel at bridging communication gaps and aiding team collaboration in diverse settings.",
-    "mission": "With a passion for continuous learning and a mission to blend the intricate worlds of art and technology, I strive to inspire others just as I have been inspired by games and movies throughout my life.",
+    "mission": "With a passion for continuous learning and a mission to blend the intricate worlds of design and technology, I strive to inspire others just as I have been inspired by games and movies throughout my life.",
     "backToPortfolio": "Back to Portfolio"
 }

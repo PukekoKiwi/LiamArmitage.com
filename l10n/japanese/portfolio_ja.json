@@ -1,10 +1,10 @@
 {
     "head": {
-        "title": "ﾘｱﾑ･ｱｰﾐﾃｰｼﾞ - ﾃｸﾆｶﾙｱｰﾃｨｽﾄ"
+        "title": "ﾘｱﾑ･ｱｰﾐﾃｰｼﾞ"
     },
     "header": {
         "title": "リアム・アーミテージ",
-        "subTitle": "テクニカルアーティスト",
+        "subTitle": "テクニカルデザイナー",
         "resume": "&nbsp; 経歴書",
         "about": "私について",
         "translate": "あ → Ａ"
@@ -12,8 +12,8 @@
     "main": {
         "hundredDays": {
             "intro": "進行中のプロジェクトをぜひご覧ください:",
-            "projectName": "テックアートの100日間",
-            "description": "これからのテックアートプロジェクトのライブ日記です！"
+            "projectName": "100日間",
+            "description": "これからのプロジェクトのライブ日記です！"
         },
         "workTitle": {
             "title": "注目の作品"
@@ -22,7 +22,7 @@
             "all": "すべて",
             "programming": "プログラミング",
             "art": "アート",
-            "technicalArt": "テクニカルアート",
+            "technicalArt": "テクニカルデザイン",
             "jumpToArtSamples": "アートサンプルへ"
         },
         "projects": {
@@ -44,7 +44,7 @@
                 "summaryText": "うごくメモ帳の特徴的なスタイルを再現するUnityベースのシェーダーシステム。RGBカラーマッピング、ディザリング、カスタマイズ可能な彩度、深度ノーマルマッピング、ソーベルエッジ検出、疑似ノイズ生成を特徴としています。",
                 "roleTitle": "役割",
                 "roleResponsibility1": "ソロ",
-                "techArtist": "テクニカルアーティスト",
+                "techArtist": "シェーダーアーティスト",
                 "roleResponsibility2": "Pythonを活用し、ボリューメトリック・テクスチャとデモ用ビジュアライゼーションを作成。",
                 "roleResponsibility3": "C#とHLSLを使用し、多機能でカスタマイズ可能なUnityシェーダーシステムを設計。",
                 "linkIntro": "プロジェクトを見る：",
@@ -56,7 +56,7 @@
                 "summaryText": "ジョジョの奇妙な冒険の徐倫の糸を完全に手順で再現し、カスタマイズ可能でアニメーション化されたパラメータ、テキストアニメーション、ノイズ、テクスチャが含まれています。上のビデオはこのツールを使って作成したもので、DarienToadのSketchfabでの<a href='https://sketchfab.com/3d-models/jolyne-kujo-55132ba1affd4a91b6c1f1f5003f357e'>徐倫モデル</a>をフィーチャーしています。",
                 "roleTitle": "役割",
                 "roleResponsibility1": "ソロ",
-                "techArtist": "テクニカルアーティスト",
+                "techArtist": "アセットデザイナー",
                 "roleResponsibility2": "Blenderのジオメトリノードとシェーダーノードを使用して汎用性のあるアセットを設計・実装。",
                 "roleResponsibility3": "クリエイティブなコンテキストでの効果の可能性を強調する視覚的に鮮やかな歌詞ビデオを制作。",
                 "linkIntro": "制作について読む：",

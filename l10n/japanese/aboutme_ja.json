@@ -1,11 +1,11 @@
 {
-    "title": "ﾘｱﾑ･ｱｰﾐﾃｰｼﾞ - ﾃｸﾆｶﾙｱｰﾃｨｽﾄ",
+    "title": "ﾘｱﾑ･ｱｰﾐﾃｰｼﾞ",
     "name": "リアム・アーミテージ",
-    "role": "テクニカルアーティスト",
+    "role": "テクニカルデザイナー",
     "resume": "&nbsp; 履歴書",
     "translate": "あ → Ａ",
     "greetings": "ご挨拶！",
-    "intro": "リアム・アーミテージと申します。アートとテクノロジーを組み合わせて創造性を刺激することに情熱を持つ<span class='keyword art'>テクニカルアーティスト</span>です。2024年12月にロチェスター工科大学を卒業予定で、<span class='keyword other'>ゲームデザインと開発</span>の学士号を取得します。",
+    "intro": "リアム・アーミテージと申します。アートとテクノロジーを組み合わせて創造性を刺激することに情熱を持つ<span class='keyword art'>テクニカルデザイナー</span>です。2024年12月にロチェスター工科大学を卒業予定で、<span class='keyword other'>ゲームデザインと開発</span>の学士号を取得します。",
     "skills": "私のスキルセットには、<span class='keyword art'>Maya</span>、<span class='keyword art'>Unreal Engine</span>、<span class='keyword art'>Unity</span>、<span class='keyword art'>Blender</span>、<span class='keyword art'>ZBrush</span>といったアーティスティックツール、<span class='keyword programming'>C++</span>、<span class='keyword programming'>C#</span>、<span class='keyword programming'>Javascript</span>、<span class='keyword programming'>Python</span>などのプログラミング言語、プロジェクト管理手法などが含まれています。英語と日本語の<span class='keyword other'>バイリンガル</span>として、コミュニケーションと協力を得意とし、多様なチームで効果的に作業することができます。",
     "mission": "新しいテクノロジーを学び、クリエイティブプロセスに絶えず取り入れながら、私は様々なメディアを通じて自己表現をし、ゲームや映画が私に与えたインスピレーションを他者にも与えることを目指しています。",
     "backToPortfolio": "ポートフォリオに戻る"
