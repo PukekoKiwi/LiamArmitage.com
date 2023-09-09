@@ -1,10 +1,10 @@
 {
     "head": {
-        "title": "Liam Armitage - Technical Designer"
+        "title": "Liam Armitage - Technical Artist"
     },
     "header": {
         "title": "Liam Armitage",
-        "subTitle": "Technical Design",
+        "subTitle": "Technical Artist",
         "resume": "&nbsp; Resume",
         "about": "About Me",
         "translate": "Ａ → あ"
@@ -12,8 +12,8 @@
     "main": {
         "hundredDays": {
             "intro": "Feel free to check out my in-progress project:",
-            "projectName": "100 Days Series",
-            "description": "a live daily journal of my upcoming projects!"
+            "projectName": "100 Days of Tech Art",
+            "description": "a live daily journal of my upcoming tech art projects!"
         },
         "workTitle": {
             "title": "Featured Work"
@@ -22,7 +22,7 @@
             "all": "All",
             "programming": "Programming",
             "art": "Art",
-            "technicalArt": "Technical Design",
+            "technicalArt": "Technical Art",
             "jumpToArtSamples": "Jump to Art Samples"
         },
         "projects": {
@@ -44,7 +44,7 @@
                 "summaryText": "A Unity-based shader system that replicates the distinctive style of Flipnote Studio, featuring RGB colormapping, dithering, customizable saturation, depth-normal mapping, Sobel edge detection, and pseudonoise generation.",
                 "roleTitle": "Role",
                 "roleResponsibility1": "Solo ",
-                "techArtist": "Shader Artist",
+                "techArtist": "Technical Artist",
                 "roleResponsibility2": "Utilized Python to create volumetric textures and demo visualizations",
                 "roleResponsibility3": "Engineered a versatile, customizable Unity shader system using C# and HLSL",
                 "linkIntro": "Check out the project:",
@@ -56,7 +56,7 @@
                 "summaryText": "A completely procedural replication of Jolyne's thread from Jojo's Bizarre Adventure, complete with customizable and animatable parameters, text animation, noise, and textures. The video above demonstrates the tool, featuring a <a href='https://sketchfab.com/3d-models/jolyne-kujo-55132ba1affd4a91b6c1f1f5003f357e'> Jolyne model </a>by DarienToad on Sketchfab.",
                 "roleTitle": "Role",
                 "roleResponsibility1": "Solo ",
-                "techArtist": "Procedural Asset Designer",
+                "techArtist": "Technical Artist",
                 "roleResponsibility2": "Designed and implemented a versatile asset using Blender's Geometry Nodes and Shader Nodes.",
                 "roleResponsibility3": "Produced a visually striking lyric video that highlights the effect's potential in a creative context.",
                 "linkIntro": "Read about the production:",
