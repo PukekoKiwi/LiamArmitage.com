@@ -12,23 +12,23 @@
     },
     "main": {
       "introduction": {
-        "title": "Sword of the Morel - A Game/Music Jam 2022 Project",
-        "description": "Sword of the Morel is a charming 2D platformer based on the theme of growth. The player stars as a mushroom boy, Mica, who embarks on a quest to reclaim his village, using a sword that grows stronger with each defeated enemy. This project won the \"Best Visuals\" award at the Game/Music Jam 2022.",
-        "link": "Feel free to play the game at <a href='https://fumpledump.itch.io/sword-of-the-morel' target='_blank'>Sword of the Morel on Itch.io</a>"
+        "title": "Mushroom Kid's Big Grass Sword (Formerly 'Sword of the Morel')",
+        "description": "Mushroom Kid's Big Grass Sword is a charming 2D platformer based on the theme of growth. The player stars as a mushroom boy, Mica, who embarks on a quest to reclaim his village, using a sword that grows stronger with each defeated enemy. This project won the \"Best Visuals\" award at the Game/Music Jam 2022.",
+        "link": "Feel free to get the game jam version from <a href='https://fumpledump.itch.io/sword-of-the-morel' target='_blank'>itch.io</a>"
       },
       "role": {
         "title": "Role and Contribution",
-        "description1": "As a <b>Background and Asset Artist</b>, I had the opportunity to create numerous large-scale pixel art sprites, contributing significantly to the game's aesthetic and gameplay experience. Accumulating over 60 hours in Aseprite, I was able to enhance the game's visuals and master the use of this pixel art tool."
+        "description1": "As a <b>Background and Asset Artist</b>, I had the opportunity to create numerous large-scale pixel art sprites, contributing significantly to the game's aesthetic and gameplay experience. Accumulating over 60 hours in Aseprite, I was able to enhance the game's visuals and master the use of this pixel art tool.<br><br>Now, as the game has entered a full production phase, I've taken the role of <b>Environment Artist, VFX Artist, and Technical Artist</b>. Aiming to give the game a quaint and homely atmosphere, I'm making a strong splash in the world of shaders for 2D games using Godot's shader and particle engine."
       },
       "assets": {
         "title": "Creation of Assets",
         "description1": "The visual style of the game was largely dictated by the pixel style and color palette I used. By referencing various types of mushrooms and incorporating a nature-themed aesthetic, I created assets that enhanced the game's charm and atmosphere."
       },
       "trailer": {
-        "caption": "A game trailer produced by <a href='https://johndevelopment.com/'>John Haley</a>"
+        "caption": "A game trailer for the jam produced by <a href='https://johndevelopment.com/'>John Haley</a>"
       },
       "visualization": {
-        "title": "Samples"
+        "title": "Game Jam Samples"
       },
       "challenges": {
         "title": "Challenges and Solutions",
@@ -40,7 +40,10 @@
       },
       "future": {
         "title": "Future Development",
-        "description1": "Sword of the Morel has been granted $10,000 dollars in seed money from the <a href='https://www.rit.edu/simonecenter/magic-maker-program' target='_blank'>RIT Magic Maker Program</a> to further develop the game over the course of the 2023 Fall Semester! I plan to work further on art, as well as VFX and shaders to make the game a visual masterpiece."
+        "description1": "The game has been granted $10,000 dollars in seed money from the <a href='https://www.rit.edu/simonecenter/magic-maker-program' target='_blank'>RIT Magic Maker Program</a> to further develop the game over the course of the 2023 Fall Semester!"
+      },
+      "visualization2": {
+        "title": "Current Production Samples"
       }
     }
   }

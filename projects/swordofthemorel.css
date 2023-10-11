@@ -92,6 +92,13 @@ video {
     gap: 10px;
 }
 
+.visualizations2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
 .preview-figure {
     display: flex;
     flex-direction: column;
