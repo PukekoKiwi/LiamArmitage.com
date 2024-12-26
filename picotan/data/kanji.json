@@ -36,5 +36,42 @@
       "kanjipedia": "https://www.kanjipedia.jp/kanji/0001100400"
     },
     "id": "k2"
+  },
+  {
+    "character": "静",
+    "radical": "青",
+    "stroke_count": 14,
+    "readings": {
+      "on": [
+        "セイ",
+        "ジョウ"
+      ],
+      "kun": [
+        "しず",
+        "しず.か",
+        "しず.まる",
+        "しず.める"
+      ]
+    },
+    "meanings": {
+      "japanese": [
+        "しずか。じっとしている。動かない。",
+        "しずか。音がしない。",
+        "しずか。落ち着いている。",
+        "しずまる。しずめる。やすらかにする。"
+      ],
+      "english": [
+        "Quiet. Still. Not moving.",
+        "Quiet. Without sound.",
+        "Quiet. Calm and composed.",
+        "To calm down. To pacify. To bring peace."
+      ]
+    },
+    "kanken_level": 7,
+    "references": {
+      "jitenon": "https://kanji.jitenon.jp/kanjib/545",
+      "kanjipedia": "https://www.kanjipedia.jp/kanji/0003924700"
+    },
+    "id": "k2"
   }
 ]
