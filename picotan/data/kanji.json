@@ -1,43 +1,5 @@
 [
   {
-    "id": "k1",
-    "character": "æ¼¢",
-    "radical": "æ°µ",
-    "stroke_count": 13,
-    "readings": {
-      "on": [
-        "ã«ã³"
-      ],
-      "kun": [
-        "ãã¨ã",
-        "ãã"
-      ]
-    },
-    "meanings": {
-      "japanese": [
-        "ä¸­å½ãæµããå·ã®åãæ¼¢æ°´ãã",
-        "ç·ãç·å­ãç·æ§ã®ç§°ã",
-        "å¤©ã®å·ã",
-        "ä¸­å½ã®çæã®åãã¾ããä¸­å½ã«é¢ãããã¨ããã",
-        "æ°æã®åãæ¼¢æãæ¼¢æ°æã",
-        "ããããããä¸­å½ã®ãã¨ã"
-      ],
-      "english": [
-        "The name of a river flowing in China, 'Han Shui.'",
-        "Man. Male. A term for a male.",
-        "The Milky Way.",
-        "The name of a Chinese dynasty. Also, matters related to China.",
-        "The name of an ethnic group. The Han ethnicity. Han people.",
-        "Aya. Kara. Refers to China."
-      ]
-    },
-    "kanken_level": 4,
-    "references": {
-      "jitenon": "https://kanji.jitenon.jp/kanji/264",
-      "kanjipedia": "https://www.kanjipedia.jp/kanji/0001100400"
-    }
-  },
-  {
     "character": "静",
     "radical": "青",
     "stroke_count": 14,
