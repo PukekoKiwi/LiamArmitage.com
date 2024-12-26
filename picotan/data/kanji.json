@@ -1,0 +1,35 @@
+[
+    {
+        "id": "k1",
+        "character": "漢",
+        "radical": "氵",
+        "stroke_count": 13,
+        "readings": {
+          "on": ["カン"],
+          "kun": ["おとこ", "から"]
+        },
+        "meanings": {
+          "japanese": [
+            "中国を流れる川の名「漢水」。",
+            "男。男子。男性の称。",
+            "天の川。",
+            "中国の王朝の名。また、中国に関することがら。",
+            "民族の名。漢族。漢民族。",
+            "あや。から。中国のこと。"
+          ],
+          "english": [
+            "The name of a river flowing in China, 'Han Shui.'",
+            "Man. Male. A term for a male.",
+            "The Milky Way.",
+            "The name of a Chinese dynasty. Also, matters related to China.",
+            "The name of an ethnic group. The Han ethnicity. Han people.",
+            "Aya. Kara. Refers to China."
+          ]
+        },
+        "kanken_level": 4,
+        "references": {
+          "jitenon": "https://kanji.jitenon.jp/kanji/264",
+          "kanjipedia": "https://www.kanjipedia.jp/kanji/0001100400"
+        }
+    }
+]
