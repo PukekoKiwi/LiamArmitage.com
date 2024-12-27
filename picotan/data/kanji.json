@@ -73,5 +73,37 @@
       "kanjipedia": "https://www.kanjipedia.jp/kanji/0003924700"
     },
     "id": "k2"
+  },
+  "新": {
+    "character": "新",
+    "radical": "斤",
+    "stroke_count": 13,
+    "readings": {
+      "on": [
+        "シン"
+      ],
+      "kun": [
+        "あたら",
+        "あら.た",
+        "にい"
+      ]
+    },
+    "meanings": {
+      "japanese": [
+        "新しい",
+        "新たな",
+        "新規の"
+      ],
+      "english": [
+        "New",
+        "Fresh",
+        "Recent"
+      ]
+    },
+    "kanken_level": 5,
+    "references": {
+      "jitenon": "https://kanji.jitenon.jp/kanji/317",
+      "kanjipedia": "https://www.kanjipedia.jp/kanji/0002849500"
+    }
   }
 }
